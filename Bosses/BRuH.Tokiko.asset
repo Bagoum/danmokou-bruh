@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a92301f86b4dd690557658c7243e8b, type: 3}
+  m_Name: BRuH.Tokiko
+  m_EditorClassIdentifier: 
+  boss: {fileID: 6003014192476353498, guid: 9c3042e10772bb047bfa3517028bf5aa, type: 3}
+  CardPracticeName: Tokiko
+  stateMachine: {fileID: 4900000, guid: 962e29ae21608dd4cb55cad254f4b1b5, type: 3}
+  key: bruh.tokiko
+  casualName: Tokiko
+  casualNameJP: "\u6731\u9DFA\u5B50"
+  displayName: Tokiko
+  displayTitle: Book-Reading<br>Crested Ibis
+  trackName: "\u6731\u9DFA\u5B50"
+  colors: {fileID: 11400000, guid: 5c8bc1950d387cd44a9f95991f411850, type: 2}
+  rotator: 
+  profile:
+    image: {fileID: 2800000, guid: 6b57591c6f68f564e81f263214500ba2, type: 3}
+    offsetX: 0.227
+    offsetY: 0.644
+    zoom: 6.95
+  defaultNonBG: {fileID: 0}
+  defaultSpellBG: {fileID: 0}
+  defaultIntoSpellTransition: {fileID: 0}
+  defaultIntoNonTransition: {fileID: 0}
+  bossCutin: {fileID: 0}
+  spellCutins:
+  - {fileID: 160725723660692450, guid: 6c9edea58886c7044a214d98843edd33, type: 3}
