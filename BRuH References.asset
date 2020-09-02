@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7768018aff40589017a165e079b3c1, type: 3}
   m_Name: BRuH References
   m_EditorClassIdentifier: 
+  gameIdentifier: Fantastic Poetry Festival
+  gameVersion:
+    major: 1
+    minor: 2
+    patch: 0
   mainMenu: {fileID: 11400000, guid: 1b16989672f54ac4a82a3596670de9d3, type: 2}
+  replaySaveMenu: {fileID: 11400000, guid: 4eb8b66bd76d4d94fa90176835284503, type: 2}
+  unitScene: {fileID: 11400000, guid: 0d8e0af3c97e7f441a07af029bcd3b1a, type: 2}
+  tutorial: {fileID: 0}
+  miniTutorial: {fileID: 0}
+  campaign: {fileID: 0}
+  exCampaign: {fileID: 0}
+  dayCampaign: {fileID: 11400000, guid: 71a5b3105ee421b4cba073f9ab2f74cb, type: 2}
+  defaultTransition: {fileID: 11400000, guid: abaa34f12f181664b8caff5ceba328a5, type: 2}
+  shots: []
   dialogue:
   - {fileID: 11400000, guid: d6535e5ea44923f49a32bc20060b6d03, type: 2}
   bossMetadata:
