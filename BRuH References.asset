@@ -22,11 +22,11 @@ MonoBehaviour:
   unitScene: {fileID: 11400000, guid: 0d8e0af3c97e7f441a07af029bcd3b1a, type: 2}
   tutorial: {fileID: 0}
   miniTutorial: {fileID: 0}
+  endcard: {fileID: 0}
   campaign: {fileID: 0}
   exCampaign: {fileID: 0}
   dayCampaign: {fileID: 11400000, guid: 71a5b3105ee421b4cba073f9ab2f74cb, type: 2}
   defaultTransition: {fileID: 11400000, guid: abaa34f12f181664b8caff5ceba328a5, type: 2}
-  shots: []
   dialogue:
   - {fileID: 11400000, guid: d6535e5ea44923f49a32bc20060b6d03, type: 2}
   bossMetadata:
@@ -41,6 +41,7 @@ MonoBehaviour:
   tracks:
   - {fileID: 11400000, guid: d8292462aff58e948ac112ebecb80951, type: 2}
   - {fileID: 11400000, guid: cb5dbd615fa25254b94136137fba3355, type: 2}
+  items: {fileID: 11400000, guid: 18e6de6e951f4114e8823af9e617bff7, type: 2}
   summonables:
   - {fileID: 11400000, guid: 38afc312ddb0ac242b8cfb301b1b4237, type: 2}
   fileStateMachines: []
