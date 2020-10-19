@@ -12,6 +12,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020ffaf7bd5c48dba990b830dbece245, type: 3}
   m_Name: Kurokoma
   m_EditorClassIdentifier: 
+  leftStands2:
+    defaultRoot:
+      offset: {x: 0, y: 0}
+      sprite: {fileID: 0}
+    normal:
+      sprites: []
+    angry:
+      sprites: []
+    happy:
+      sprites: []
+    worry:
+      sprites: []
+    cry:
+      sprites: []
+    surprise:
+      sprites: []
+    special:
+      sprites: []
+  rightStands2:
+    defaultRoot:
+      offset: {x: 0, y: 0}
+      sprite: {fileID: 0}
+    normal:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 1561bf72d03c9dd498632913b6bea7fa, type: 3}
+    angry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: b68e1d10a1c8ea74f8663af568d5f880, type: 3}
+    happy:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 273bbb518a433fc45a9460d01c3ae917, type: 3}
+    worry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 8b8f2747dcf430c4bb16816cb0db6e0e, type: 3}
+    cry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 97fff5648e327e84ebdea84f89d90b75, type: 3}
+    surprise:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: e5642365b5ffb3c4bad85e0c1ee284c0, type: 3}
+    special:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: e3c423a9f7922dd48918b57c6e1baea7, type: 3}
   leftStands:
     normal: {fileID: 0}
     angry: {fileID: 0}

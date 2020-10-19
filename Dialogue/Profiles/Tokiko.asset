@@ -12,6 +12,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020ffaf7bd5c48dba990b830dbece245, type: 3}
   m_Name: Tokiko
   m_EditorClassIdentifier: 
+  leftStands2:
+    defaultRoot:
+      offset: {x: 0, y: 0}
+      sprite: {fileID: 0}
+    normal:
+      sprites: []
+    angry:
+      sprites: []
+    happy:
+      sprites: []
+    worry:
+      sprites: []
+    cry:
+      sprites: []
+    surprise:
+      sprites: []
+    special:
+      sprites: []
+  rightStands2:
+    defaultRoot:
+      offset: {x: 0, y: 0}
+      sprite: {fileID: 0}
+    normal:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 2b293096a1749d54bae80caec8df2086, type: 3}
+    angry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 7bbecccd13a4b0c44bac58aee740de08, type: 3}
+    happy:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: b8a425a00d3a31b4bbc8ab769b4263ce, type: 3}
+    worry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: aa47f03dc15d7ab44b58ca821853e0e4, type: 3}
+    cry:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 6a954e0e3f2e35843ba5c725197256c8, type: 3}
+    surprise:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: e7e74bcf97473a64c8e2f55c2f7e29d9, type: 3}
+    special:
+      sprites:
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 0}
+      - offset: {x: 0, y: 0}
+        sprite: {fileID: 21300000, guid: 602c989de71bb424480c97c09774927f, type: 3}
   leftStands:
     normal: {fileID: 0}
     angry: {fileID: 0}
