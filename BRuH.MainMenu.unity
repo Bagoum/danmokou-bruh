@@ -303,6 +303,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 729438321}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &729438323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5172133527797351178, guid: 77e375391f6a8da4da7729e1eef7a472,
+    type: 3}
+  m_PrefabInstance: {fileID: 729438321}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9d37bde79c3ed0448e78a53fa8e425d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &743896006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -473,6 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69de7b8db2c49f6a0b63d55b4096d57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiRenderer: {fileID: 729438323}
   MainScreenOnlyObjects: {fileID: 729221849}
   upDownSound: {fileID: 11400000, guid: 0333a90f360fc1f429670fdbcd980092, type: 2}
   leftRightSound: {fileID: 11400000, guid: 1b9f20d147bf4da4dbd1e986d09942b4, type: 2}
