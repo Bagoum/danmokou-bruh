@@ -11,14 +11,14 @@ srce worry
 .z `Weep no more, woeful shepherds, weep no more,
 For Ibaraki, your sorrow, is not dead,
 Sunk though she be beneath the wat'ry floor;`
-slce special
+slce surprise
 src
 .z `So sinks the day-star in the ocean,
 and yet anon repairs his drooping head,`
 .z `and tricks his beams, and with new spangled ore
 flames in the forehead of the mornin' sky:
 So Ibaraki sunk low, but mounted high--`
-slc
+slce worry
 .z `That's enough. You can pass.`
 src
 .z `Aw, you're gonna make me say all that and not e'en lemme do the best line? "But that one-handed oni at the door--"`

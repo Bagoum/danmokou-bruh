@@ -7,7 +7,7 @@ pattern {
 }
 phase 0
 	action block 0
-		shift-phase-to 3
+		shift-phase-to 2
 	
 !{ power1()
 sync powerup1 <> powerup2
@@ -35,7 +35,7 @@ phase 0
 <!> challenge novertical
 <!> challenge nofocus
 <!> type spell `Stop and Doubt: The Road Not Taken`
-<!> hpi 22000 2
+<!> hpi 20000 2
 <!> root 0 0
 phase 36 #{
 	action block 0

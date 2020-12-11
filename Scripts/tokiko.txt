@@ -7,7 +7,7 @@ pattern {
 }
 phase 0
 	action block 0
-		shift-phase-to 3
+		shift-phase-to 2
 	
 
 !!{ me tokiko
@@ -29,13 +29,13 @@ phase 0
 #}
 
 <!> challenge destroy
-<!> challenge destroytimed 23
+<!> challenge destroytimed 22
 <!> challenge novertical
 <!> challenge nohorizontal
 <!> type spell `Birds Singing in the Dark -- Rainy Dawn`
-<!> hpi 20000 4
+<!> hpi 18000 4
 <!> root 0 1.5
-phase 32 #{
+phase 30 #{
 	action block 0
 		pool-control gcircle-* allowcull false
 		
@@ -100,7 +100,7 @@ phase 32 #{
 <!> challenge within 5
 <!> challenge without 6
 <!> type spell `旅烏古巣は梅になりにけり`
-<!> hpi 20000 4
+<!> hpi 18000 4
 <!> root 0 2.5
 phase 32 #{
 	action block 0

@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftStands2:
     defaultRoot:
+      useDefaultOffset: 0
       offset: {x: 0, y: 0}
       sprite: {fileID: 0}
+    defaultOffset: {x: 0, y: 0}
     normal:
       sprites: []
     angry:
@@ -32,62 +34,61 @@ MonoBehaviour:
       sprites: []
   rightStands2:
     defaultRoot:
-      offset: {x: 0, y: 0}
-      sprite: {fileID: 0}
+      useDefaultOffset: 0
+      offset: {x: -80, y: 0}
+      sprite: {fileID: 21300000, guid: c14d465031b00a845aa9a2d2954627bf, type: 3}
+    defaultOffset: {x: -26, y: 410}
     normal:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: 452bf5e7b34c4f648badbc195d9be081, type: 3}
     angry:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: 13413b72eb3274946b45a1629a5dc74f, type: 3}
     happy:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: c0ca63c9c5334f348b13a0f6b1a69ea6, type: 3}
     worry:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: c62f8ddec66d4bd47a2fe28d3c98f6c1, type: 3}
     cry:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: e55816a5db70e0a48b98467de2c9c193, type: 3}
     surprise:
       sprites:
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 0
+        offset: {x: 0, y: 0}
         sprite: {fileID: 0}
-      - offset: {x: 0, y: 0}
+      - useDefaultOffset: 1
+        offset: {x: 0, y: 0}
         sprite: {fileID: 21300000, guid: 53c991977278df24fbe55bd25cdf926d, type: 3}
     special:
       sprites: []
-  leftStands:
-    normal: {fileID: 0}
-    angry: {fileID: 0}
-    happy: {fileID: 0}
-    worry: {fileID: 0}
-    cry: {fileID: 0}
-    surprise: {fileID: 0}
-    special: {fileID: 0}
-  rightStands:
-    normal: {fileID: 21300000, guid: 452bf5e7b34c4f648badbc195d9be081, type: 3}
-    angry: {fileID: 21300000, guid: 13413b72eb3274946b45a1629a5dc74f, type: 3}
-    happy: {fileID: 21300000, guid: c0ca63c9c5334f348b13a0f6b1a69ea6, type: 3}
-    worry: {fileID: 21300000, guid: c62f8ddec66d4bd47a2fe28d3c98f6c1, type: 3}
-    cry: {fileID: 21300000, guid: e55816a5db70e0a48b98467de2c9c193, type: 3}
-    surprise: {fileID: 21300000, guid: 53c991977278df24fbe55bd25cdf926d, type: 3}
-    special: {fileID: 0}
+  flipOnReduce: 1
   icons:
     normal: {fileID: 21300000, guid: 8710b94154677aa4ca61fa387b6e0637, type: 3}
     angry: {fileID: 0}

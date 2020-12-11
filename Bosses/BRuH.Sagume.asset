@@ -14,20 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: 6b90e209cad5e3c4a94428bf2be705e0, type: 3}
   CardPracticeName: Sagume
+  replayNameOverride: 
   stateMachine: {fileID: 4900000, guid: 53761e27d5fe53e4bac6696835fe0b22, type: 3}
   key: bruh.sagume
   casualName: Sagume
   casualNameJP: "\u30B5\u30B0\u30E1"
-  displayName: Kishin<br>Sagume
-  displayTitle: Moonlit Night's<br>White Heron
   trackName: "\u30B5\u30B0\u30E1"
   colors: {fileID: 11400000, guid: 89bfd4f5863c5f74ca601c1529dfb16b, type: 2}
-  rotator: 
+  cardRotator: 
+  spellRotator: 
   profile:
-    image: {fileID: 2800000, guid: d62ed3a5173871a46b7668f70e03149e, type: 3}
-    offsetX: 0.42
-    offsetY: 0.763
-    zoom: 7.24
+    leftSidebar: {fileID: 2800000, guid: 972414e491795114baccf71f73969942, type: 3}
+    rightSidebar: {fileID: 2800000, guid: f1b27e578fda0354c8a39434287fb29a, type: 3}
   defaultNonBG: {fileID: 0}
   defaultSpellBG: {fileID: 0}
   defaultIntoSpellTransition: {fileID: 0}

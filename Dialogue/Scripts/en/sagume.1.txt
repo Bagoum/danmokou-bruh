@@ -18,7 +18,7 @@ src
 .z `The old pond:
  A frog jumps in,--
  The sound of the water`
-slce special
+slce surprise
 .z `Sorry, I'm not that well-versed in parsing allegory. Can you make it a bit more, uh, understandable?`
 srce worry
 .z `...The old moon:

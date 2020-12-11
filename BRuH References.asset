@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameIdentifier: FPF
   gameVersion:
-    major: 1
-    minor: 2
-    patch: 0
+    major: 2
+    minor: 0
+    patch: 1
   mainMenu: {fileID: 11400000, guid: 1b16989672f54ac4a82a3596670de9d3, type: 2}
   replaySaveMenu: {fileID: 11400000, guid: 4eb8b66bd76d4d94fa90176835284503, type: 2}
-  defaultMenuBackground: {fileID: 6614173089345499342, guid: 56da452ec6a98284295330ef47ecf1c1,
+  defaultMenuBackground: {fileID: 5180723301924424041, guid: 5c152f9bd4f2ef943ae0eff6a83d415c,
     type: 3}
   unitScene: {fileID: 11400000, guid: 0d8e0af3c97e7f441a07af029bcd3b1a, type: 2}
   tutorial: {fileID: 0}

@@ -4,7 +4,7 @@ place r1 tokiko
 sle kasen _
 sre tokiko _
 .z `枯れ枝にカラス止まりけり秋の暮れ`
-slce special
+slce surprise
 .z `があ！もう一人が出て来ました！`
 srce angry
 .z `はぁ？「もう一人」って？同志よ、あたしは一人しかいない。`

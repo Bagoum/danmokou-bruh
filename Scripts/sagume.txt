@@ -34,7 +34,7 @@ phase 0
 <!> challenge destroytimed 25
 <!> challenge novertical
 <!> type spell `Cycle and Epicycle, Orb in Orb`
-<!> hpi 20000 5
+<!> hpi 18000 5
 <!> root 0 2
 phase 37 #{
 	action block 0

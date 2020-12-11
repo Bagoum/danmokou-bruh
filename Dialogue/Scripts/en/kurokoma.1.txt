@@ -15,7 +15,7 @@ src
 .z `Out there? I dunno about that, pardner. She's prolly lawng dead. `
 srce _
 .z `This poetry festival y'all got runnin'? She loved it. Ev'ry year that oni would dress up like a human an' recite her own poems smack dab'n the middle'v the human village.`
-slce special
+slce worry
 srce worry
 .z `But she disappear'd a thousan' years ago. And y'all above ground stoppt holdin' this festival about then too. `
 srce happy
@@ -28,7 +28,7 @@ srce angry
 .c `
 Ahem! If I beat ya in a fistfight, I ain't gotta recite nothing!`
 z
-slce worry
+slce surprise
 .z `What? There's no rule like that.`
 src
 .z `Dialogue's meanin'less! Come at me, doppelganger!`

@@ -31,7 +31,7 @@ srce worry
 srce angry
 .z `くだらん。こんなバカげた話もうつきあってられん。`
 .z `行春や鳥啼魚の目は泪`
-slce special
+slce surprise
 .z `待って、あの俳句どういう意味なのですか？`
 src
 .z `さよならって意味なんどよ、小僧。`

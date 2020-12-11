@@ -6,7 +6,7 @@ sre tokiko _
 .z `On the dead branch
  a crow settles--
  autumn evening`
-slce special
+slce surprise
 .z `Geh! Not another one!`
 srce angry
 .z `Excuse me? Another one? I assure you, comrade, there is only one of me.`

@@ -32,7 +32,7 @@ srce angry
 .z `Spring passes
  and the birds cry out-- tears
  in the eyes of fishes`
-slce special
+slce surprise
 .z `Wait, what does that haiku have to do with anything?!`
 src
 .z `It means goodbye, kid.`
