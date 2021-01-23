@@ -2,7 +2,7 @@ pattern {
 	boss bruh.junko
 }
 phase 0
-	action block 0
+	paction 0
 		shift-phase-to 2
 	
 
@@ -24,7 +24,7 @@ phase 0
 <!> type non `Some Non 1`
 <!> hp 7000
 phase 21 #{
-	action block 0
+	paction 0
 		position 0 1
 		async gem-* <2;:-90> gcr2 190 _ <35> {
 			color { */b */ */w }
@@ -36,7 +36,7 @@ phase 21 #{
 
 ##2. 2-anti sawblade
 phase 23 #{
-	action block 0
+	paction 0
 		position 0 2
 		async gem-*/w <0.5;:> gcr2 30 _ <6h> {
 			bindLR ##bindLR is simpler to use than pm1 p
@@ -55,7 +55,7 @@ phase 23 #{
 <!> type non `Some Non 2`
 <!> hp 5000
 phase 25 #{
-	action block 0
+	paction 0
 		position 0 2
 		async gem-red/b <3> gcr2 4 _ <> {
         } gsr {

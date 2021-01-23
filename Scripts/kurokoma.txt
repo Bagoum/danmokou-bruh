@@ -6,7 +6,7 @@ pattern {
 	}
 }
 phase 0
-	action block 0
+	paction 0
 		shift-phase-to 2
 	
 !{ power1()
@@ -38,7 +38,7 @@ phase 0
 <!> hpi 20000 2
 <!> root 0 0
 phase 36 #{
-	action block 0
+	paction 0
 		pool-control { fireball-* } cullrad 10 
 		bullet-control persist fireball-black/ batch > (distto &.rootloc) (dist Lplayer &.rootloc) {
 			time 100 _
@@ -47,9 +47,25 @@ phase 36 #{
 		}
 		gtr2 2s _ <> {
 			wait-child
+			delay 1s
 		} saction 0
 			$power1
-			crosshair crosshair Lplayer 0 1.5 ploc 0
+			savev2 ploc 0 Lplayer
+			async glaser-orange/ <3;:180> gsr {
+				target a @0 ploc
+			} gsr2 19 <12> {
+				bank <0.8;:180>
+				center
+			} gsr2 2 <13> {
+				bank <>
+				center
+			} gsr {
+				bank <-0.9;:>
+			} laser null 1 0 {
+				tint(rgba(1, 1, 1, lerpsmooth(in-sine, 0, 0.6, t, 1, 0)))
+				dsfx
+			}
+			wait 1.5
 !!{ ctrlt 2
 			timer restart rt
 			bullet-control < timersec(rt) $ctrlt fireball-* slowdown -m 1 * 3 softmod (/ $ctrlt 2) timersec(rt) _
@@ -86,7 +102,7 @@ phase 36 #{
 <!> hp 13000
 <!> root 0 2
 phase 36 #{
-	action block 0
+	paction 0
 !!{ sunt 2
 		bullet-control persist sun-* cull > t $sunt
 		pool-control circle-black/b allowcull false

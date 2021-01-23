@@ -15,7 +15,7 @@ pattern {
 !!{ loco lbeh $other
 
 phase 0
-	action block 0
+	paction 0
 		@ { $other }
 			position -15 0
 		shift-phase-to 2
@@ -70,7 +70,7 @@ phase 0
 <!> root 0 2
 <!> rootother $other 0 0.5
 phase 42
-	action block 0
+	paction 0
 		timer restart pt
 		async gem-*/w <> gcr2 6 _ <> {
 			frv2	a sine 8p 700 timersec(pt)
@@ -113,14 +113,14 @@ phase 42
 <!> root 0 3
 <!> rootother $other -4 -3
 phase 50
-	action block 0
+	paction 0
 
 !!{ r0 3
 !!{ r1 4
 !!{ r lerpt 0 3 $r0 $r1
 !!{ phi lssht -2 1 * 50 t * 9 t
 !!{ theta + &.ang * 6 t
-	action block 0
+	paction 0
 !{ fromto(from, to, when)
 bullet-control _ %from restyle %to %when
 !}
@@ -192,7 +192,7 @@ $fromtos(%from, %to, %soft, < mod 360 $theta 180)
 <!> root 0 2.5
 <!> rootother $other 0 1
 phase 36
-	action block 0
+	paction 0
 		timer restart pt
 		pool-control gem-purple/w cullrad 15
 		pool-control circle-blue/b allowcull false
@@ -241,7 +241,7 @@ phase 36
 <!> root 0 1.5
 <!> rootother $other 0 3
 phase 36
-	action block 0
+	paction 0
 !!{ jt 2
 		beh-control persist gdlaser-yellow/b restyle gdlaser-red/b > t $jt
 		beh-control persist gdlaser-purple/b restyle gdlaser-blue/b > t $jt
@@ -258,7 +258,7 @@ phase 36
 			bindUD
 			p this
 			wait-child
-		} action block 0 :2
+		} paction 0 :2
 			@ $other
 				saction 0 :4
 !!{ movet1 1.5
@@ -302,14 +302,14 @@ phase 36
 <!> root 0 2.5
 <!> rootother $other 0 1.5
 phase 36
-	action block 0
+	paction 0
 		timer restart pt
 		pool-control gem-purple/ cullrad 15
 		pool-control circle-blue/ allowcull false
 		pool-control circle-red/ allowcull false
 		bullet-control persist circle-* time 100 < t 100
 		@ $other
-			action block 0 :2
+			paction 0 :2
 				move _ nroffset px sine 4p 1.8 t
 				gtr2 2s _ <> {
 					delay 1s
@@ -378,7 +378,7 @@ bullet-control once %from batch (and > y -2.5 onscreenby $range loc) {
 <!> root 0 1
 <!> rootother $other 0 2.5
 phase 42
-	action block 0
+	paction 0
 		timer restart pt
 			
 !!{ cl < x -5
@@ -438,7 +438,7 @@ phase 42
 <!> root 0 2
 <!> rootother $other 0 0.5
 phase 42
-	action block 0
+	paction 0
 		timer restart pt
 !!{ crep 5
 !!{ wait2 if divby 8 ++ t 160 30
@@ -476,7 +476,7 @@ phase 42
 <!> root 0 2
 <!> rootother $other 0 0.5
 phase 42
-	action block 0
+	paction 0
 		timer restart pt
 		bullet-control _ gem-yellow/w sfx x-transform-1 > t 1.5
 		bullet-control _ gem-yellow/w restyleeffect circle-red/w cwheel-red/ & > t 1.5 = &.layer 0
@@ -492,7 +492,7 @@ phase 42
 			postloop aoff +=f / 360h 5
 !!{ spokes 6
 !!{ crep 12
-		} action block 0 
+		} paction 0 
 			@ $other
 				$jpower2
 			async gem-yellow/w <> gcr2 6 * 2 $crep <> {
@@ -528,7 +528,7 @@ phase 42
 <!> root -2 2
 <!> rootother $other 2 2
 phase 52 
-	action block 0
+	paction 0
 !{ powerboth()
 	gtr { } { 
 		$power1long()
@@ -567,7 +567,7 @@ phase 0
 ##2 (concept incomplete, superseded by divebomb crows)
 <!> type timeout `Border of Wave, Particle, Line, and Curve` #{
 phase 0
-	action block 0
+	paction 0
 		position 0 2
 		@ $other
 			position 0 1

@@ -6,7 +6,7 @@ pattern {
 	}
 }
 phase 0
-	action block 0
+	paction 0
 		shift-phase-to 3
 	
 !{ power1()
@@ -37,7 +37,7 @@ phase 0
 <!> hpi 18000 5
 <!> root 0 2
 phase 37 #{
-	action block 0
+	paction 0
 		gtr2 2s _ <> {
 			wait-child
 			bindLR
@@ -88,7 +88,7 @@ phase 37 #{
 <!> hpi 11000 2
 <!> root 3 3
 phase 32 #{
-	action block 0
+	paction 0
 		pool-control circle-* allowcull false
 		sync circle-black* <> loc0 gsr {
 !!{ wl 9
@@ -124,7 +124,7 @@ phase 32 #{
 			} gsr {
 				bank0 angle * -15 &pi
 			} pather 1 0.25 tprot px lerpt 0.6 1 5 2 { }
-			move-target 2 linear pxy (if < (mod 4 p) 2 $rn $r) (if (| divby 4 p divby 4 ++ p) $r $rn)
+			move-target 2 elinear pxy (if < (mod 4 p) 2 $rn $r) (if (| divby 4 p divby 4 ++ p) $r $rn)
 #}
 
 

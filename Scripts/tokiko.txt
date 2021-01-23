@@ -6,7 +6,7 @@ pattern {
 	}
 }
 phase 0
-	action block 0
+	paction 0
 		shift-phase-to 2
 	
 
@@ -36,7 +36,7 @@ phase 0
 <!> hpi 18000 4
 <!> root 0 1.5
 phase 30 #{
-	action block 0
+	paction 0
 		pool-control gcircle-* allowcull false
 		
 		sync gcircle-*/b <> loc0 gsr {
@@ -103,7 +103,7 @@ phase 30 #{
 <!> hpi 18000 4
 <!> root 0 2.5
 phase 32 #{
-	action block 0
+	paction 0
 		$power1
 		async gdlaser-*/b <90> iparent this gsr2 0 <60> {
 			center
@@ -117,7 +117,7 @@ phase 32 #{
 				* 2 t
 				+ (sine 8 0 &lt) * -- p sine 1.6 (4) + * 1.1 &lt t
 		}
-	action block 0
+	paction 0
 		pool-control gcircle-* allowcull false
 		sync gcircle-*/b <> loc0 gsr {
 !!{ wl 8

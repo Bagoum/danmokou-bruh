@@ -14,23 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: ac6fd8ebfe407e047a8193f70de52a48, type: 3}
   CardPracticeName: Kurokoma
+  BossPracticeName:
+    _showEnOnly: 0
+    en: Kurokoma
+    jp: "\u9A6A\u99D2"
+  challengeName:
+    _showEnOnly: 0
+    en: 
+    jp: 
   replayNameOverride: 
   stateMachine: {fileID: 4900000, guid: 78ae9e17853d09241af7926e958b6f5d, type: 3}
   key: bruh.kurokoma
-  casualName: Kurokoma
-  casualNameJP: "\u9A6A\u99D2"
-  displayName: Kurokoma<br>Saki
-  displayTitle: Red Hare,<br>Black Pegasus
   trackName: "\u9A6A\u99D2"
   colors: {fileID: 11400000, guid: 0bb2e27cab4e47d42bd598238a66d8be, type: 2}
-  rotator: 
+  cardRotator: 
+  spellRotator: 
   profile:
     leftSidebar: {fileID: 2800000, guid: a5074affafdeb2b46a26803fd0cc4277, type: 3}
     rightSidebar: {fileID: 2800000, guid: 8448726af213ef94fb23568e970f79cb, type: 3}
-    image: {fileID: 2800000, guid: 238f272d2cfef6d49a623f5a333bbd60, type: 3}
-    offsetX: 0.153
-    offsetY: 0.714
-    zoom: 7.93
   defaultNonBG: {fileID: 0}
   defaultSpellBG: {fileID: 0}
   defaultIntoSpellTransition: {fileID: 0}

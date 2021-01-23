@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: 9c3042e10772bb047bfa3517028bf5aa, type: 3}
   CardPracticeName: Tokiko
+  BossPracticeName:
+    _showEnOnly: 0
+    en: Tokiko
+    jp: "\u6731\u9DFA\u5B50"
+  challengeName:
+    _showEnOnly: 0
+    en: 
+    jp: 
   replayNameOverride: 
   stateMachine: {fileID: 4900000, guid: 962e29ae21608dd4cb55cad254f4b1b5, type: 3}
   key: bruh.tokiko
-  casualName: Tokiko
-  casualNameJP: "\u6731\u9DFA\u5B50"
   trackName: "\u6731\u9DFA\u5B50"
   colors: {fileID: 11400000, guid: 5c8bc1950d387cd44a9f95991f411850, type: 2}
   cardRotator: 

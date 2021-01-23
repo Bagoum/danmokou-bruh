@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: 6b90e209cad5e3c4a94428bf2be705e0, type: 3}
   CardPracticeName: Sagume
+  BossPracticeName:
+    _showEnOnly: 0
+    en: Sagume
+    jp: "\u30B5\u30B0\u30E1"
+  challengeName:
+    _showEnOnly: 0
+    en: 
+    jp: 
   replayNameOverride: 
   stateMachine: {fileID: 4900000, guid: 53761e27d5fe53e4bac6696835fe0b22, type: 3}
   key: bruh.sagume
-  casualName: Sagume
-  casualNameJP: "\u30B5\u30B0\u30E1"
   trackName: "\u30B5\u30B0\u30E1"
   colors: {fileID: 11400000, guid: 89bfd4f5863c5f74ca601c1529dfb16b, type: 2}
   cardRotator: 
