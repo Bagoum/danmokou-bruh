@@ -119,7 +119,7 @@ phase 36 #{
 			px	pma $ww { $wl 2 }
 			py	pm $wl 2
 			plr	pm1 pm 2 1
-		} + lbeh $me wings1 $ww $wl 1.5
+		} + lbeh $me tp wings1 $ww $wl 1.5
 		
 		gtr2 0s _ <>  { 
 			wait-child 
@@ -132,7 +132,7 @@ phase 36 #{
 			~ async sun-yellow/b <> gcr2 3 _ <> {
 				sfx	x-boom
 				cancel = @0 moved 1
-			} ss * 0.8 equad0m10 0.5 $sunt t null
+			} simple null { scale * 0.8 equad0m10 0.5 $sunt t }
 			move-while 1 onscreenby -0.5 loc tpnrot ss0 vhome 40 @0 sploc
 			savef moved 0 1
 			sync x-boom <> sfx
@@ -143,7 +143,7 @@ phase 36 #{
 				sfx x-fire-burst-1
 				bindLR
 			} gsr2c $crpt {
-			} sdd * &lr starrot3 tprot px lerpt 0 0.8 5 2.4
+			} simple tprot px lerpt 0 0.8 5 2.4 { dir * &lr starrot3 }
 			~ async lightning-pink/ <180> gcr3 3 3.5s <> {
 				frv2 a * pm1 t rand 60 150
 			} gsr {
@@ -154,7 +154,7 @@ phase 36 #{
 				frv2 a * 24 rangemodh t
 			} gsr {
 				target a Lplayer
-			} sdd starrotb2 tprot px 4.6
+			} simple tprot px 4.6 { dir starrotb2 }
 
 
 

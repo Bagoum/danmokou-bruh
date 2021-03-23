@@ -103,6 +103,12 @@ MonoBehaviour:
     cry: {fileID: 0}
     surprise: {fileID: 0}
     special: {fileID: 0}
-  displayName: Kurokoma Saki
+  displayName:
+    useReference: 1
+    reference: dialogue.kurokoma
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
   key: kurokoma
   speakSFX: x-bubble-2

@@ -13,19 +13,37 @@ MonoBehaviour:
   m_Name: BRuH.Kurokoma
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: ac6fd8ebfe407e047a8193f70de52a48, type: 3}
-  CardPracticeName: Kurokoma
-  BossPracticeName:
-    _showEnOnly: 0
-    en: Kurokoma
-    jp: "\u9A6A\u99D2"
-  challengeName:
-    _showEnOnly: 0
-    en: 
-    jp: 
-  replayNameOverride: 
+  localizationBaseKey: boss.kurokoma
+  m_bossPracticeName:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  challengeNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  replayNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  bottomTrackerNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
   stateMachine: {fileID: 4900000, guid: 78ae9e17853d09241af7926e958b6f5d, type: 3}
   key: bruh.kurokoma
-  trackName: "\u9A6A\u99D2"
   colors: {fileID: 11400000, guid: 0bb2e27cab4e47d42bd598238a66d8be, type: 2}
   cardRotator: 
   spellRotator: 

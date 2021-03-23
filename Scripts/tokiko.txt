@@ -7,7 +7,7 @@ pattern {
 }
 phase 0
 	paction 0
-		shift-phase-to 2
+		shift-phase-to 3
 	
 
 !!{ me tokiko
@@ -54,7 +54,7 @@ phase 30 #{
 			px	pma $ww { $wl 2 }
 			py	pm $wl 2
 			plr	pm1 pm 2 1
-		} + lbeh $me  qrotate py @0 rot wings1 $ww $wl 1.8
+		} + lbeh $me tp qrotate py @0 rot wings1 $ww $wl 1.8
 	
 !!{ crep 12
 		async fireball-blue* <0.1;:> gcr2 1.8s _ aphi $crep {
@@ -134,7 +134,7 @@ phase 32 #{
 			px	pma $ww { $wl 2 }
 			py	pm $wl 2
 			plr	pm1 pm 2 1
-		} + lbeh $me wings1 $ww $wl 1.5
+		} + lbeh $me tp wings1 $ww $wl 1.5
 		
 		timer restart pt
 		async star-*/w <> gcr2 120 _ <> { 
@@ -144,10 +144,10 @@ phase 32 #{
 		} gsr2c 8 {
 		} gsr2 9 <> {
 			p this
-		} sdd * &lr * 200 t polar
+		} simple polar
 			+ * 1.7 t * -0.01 p
 			* &lr + * -1.6 p * 17 timersec(pt)
-			
+			{ dir * &lr * 200 t }
 		gtr2 8s _ <> {
 			bindItr(itr)
 		} saction 0
@@ -170,7 +170,8 @@ phase 32 #{
 				} gsr {
 					onlaser + 0.8 * 0.45 &pi
 !!{ effft (- - t 1.8 * 0.3 p)
-				} ssdd lerpt 0 0.4 0 1 * pm1 p * 400 t tpnrot * lerp 0 0.6 $effft 0.01 1 sampleif < $effft 0 vhome 3 Lplayer
+				} simple tpnrot * lerp 0 0.6 $effft 0.01 1 sampleif < $effft 0 vhome 3 Lplayer
+				    { scale(lerpt 0 0.4 0 1) dir(* pm1 p * 400 t) }
 			}
 			bullet-control persist lcircle-red/b batch  > $effft 0  {
 				 restyleeffect lcircle-red/ cwheel-red/ _

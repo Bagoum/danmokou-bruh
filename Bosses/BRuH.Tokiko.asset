@@ -13,19 +13,37 @@ MonoBehaviour:
   m_Name: BRuH.Tokiko
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: 9c3042e10772bb047bfa3517028bf5aa, type: 3}
-  CardPracticeName: Tokiko
-  BossPracticeName:
-    _showEnOnly: 0
-    en: Tokiko
-    jp: "\u6731\u9DFA\u5B50"
-  challengeName:
-    _showEnOnly: 0
-    en: 
-    jp: 
-  replayNameOverride: 
+  localizationBaseKey: boss.tokiko
+  m_bossPracticeName:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  challengeNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  replayNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  bottomTrackerNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
   stateMachine: {fileID: 4900000, guid: 962e29ae21608dd4cb55cad254f4b1b5, type: 3}
   key: bruh.tokiko
-  trackName: "\u6731\u9DFA\u5B50"
   colors: {fileID: 11400000, guid: 5c8bc1950d387cd44a9f95991f411850, type: 2}
   cardRotator: 
   spellRotator: 

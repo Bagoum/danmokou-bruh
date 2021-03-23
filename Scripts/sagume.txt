@@ -60,7 +60,7 @@ phase 37 #{
 			sfx	x-fire-burst-3
 		} guideempty .1 p { eloc loc } { } 
 			tprot py + lerpt 0.2 1 -3 0 brand -1.2 -0.8 {
-				colorr sun-*/b ss 0.3 nroffset @ eloc p
+				colorr sun-*/b simple nroffset @ eloc p { scale 0.3 }
 				inode nroffset @ eloc p
 					async amulet-*/w <;-0.1:;:30> gcr2 80 _ a * pm1 p -3 {
 						delay 0.7s
@@ -68,11 +68,12 @@ phase 37 #{
 						colorf { purple black yellow } p
 					} gsr2c 6 {
 					} s tprot cx 1.4
-				colorr lcircle-*/w gsr2c 6 { } ssdd 0.5 * pm1 p * 300 t offset 
+				colorr lcircle-*/w gsr2c 6 { } simple offset 
 					rx
 						0.7
 						* * pm1 p -50 + t * 2h p
 					@ eloc p
+					{ scale 0.5 dir * pm1 p * 300 t }
 			}
 		
 	
@@ -105,7 +106,7 @@ phase 32 #{
 			px	pma $ww { $wl 2 }
 			py	pm $wl 2
 			plr	pm1 pm 2 1
-		} + lbeh $me qrotate py -10 wings1 $ww $wl 1.5
+		} + lbeh $me tp qrotate py -10 wings1 $ww $wl 1.5
 		
 !!{ r 3
 !!{ rn -3

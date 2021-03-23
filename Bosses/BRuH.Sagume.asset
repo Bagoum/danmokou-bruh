@@ -13,19 +13,37 @@ MonoBehaviour:
   m_Name: BRuH.Sagume
   m_EditorClassIdentifier: 
   boss: {fileID: 6003014192476353498, guid: 6b90e209cad5e3c4a94428bf2be705e0, type: 3}
-  CardPracticeName: Sagume
-  BossPracticeName:
-    _showEnOnly: 0
-    en: Sagume
-    jp: "\u30B5\u30B0\u30E1"
-  challengeName:
-    _showEnOnly: 0
-    en: 
-    jp: 
-  replayNameOverride: 
+  localizationBaseKey: boss.sagume
+  m_bossPracticeName:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  challengeNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  replayNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
+  bottomTrackerNameOverride:
+    useReference: 1
+    reference: 
+    hardcoded:
+      en: 
+      jp: 
+      _showEnOnly: 0
   stateMachine: {fileID: 4900000, guid: 53761e27d5fe53e4bac6696835fe0b22, type: 3}
   key: bruh.sagume
-  trackName: "\u30B5\u30B0\u30E1"
   colors: {fileID: 11400000, guid: 89bfd4f5863c5f74ca601c1529dfb16b, type: 2}
   cardRotator: 
   spellRotator: 
