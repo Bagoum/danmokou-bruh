@@ -404,7 +404,7 @@ phase 42
 				timer restart st
 !!{ tctrl 8
 				bullet-control < timersec(st) $tctrl gem-yellow/w softcull cwheel-yellow/ $cond
-				bullet-control-sm < timersec(st) $tctrl empty $cond
+				bullet-control < timersec(st) $tctrl empty sm $cond
 					sync gpather-blue/w <> gsr {
 						face d
 						start rv2.a =f  if $cx - 180 &ang neg &ang
@@ -446,7 +446,7 @@ phase 42
 !!{ maxt 1.3
 !!{ fdelay + 0.2 * 1.3 - $maxt &.tret
 		bullet-control _ circle-blue/w time 100 < t 100
-		bullet-control-sm _ circle-blue/w > t + 100 $fdelay
+		bullet-control _ circle-blue/w sm > t + 100 $fdelay
 			sync gpather-red/w <> pssfx x-fire-tech-6 pather 1 0.7 tprot cx 3 {  }
 		bullet-control _ circle-blue/w softcull cwheel-red/ > t + 100 $fdelay
 		gtr2 3s _ <> {

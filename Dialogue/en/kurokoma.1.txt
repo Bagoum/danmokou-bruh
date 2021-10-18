@@ -7,8 +7,9 @@ sre kurokoma _
 slce worry
 .z `...Who are you?`
 srce worry
-.z `Ya don't remember me, buddy? $w(0.5)
-Huh, I musta mixed ye up with an old fren a mine. `
+. `Ya don't remember me, buddy?`
+wait(0.5)
+.cn `Huh, I musta mixed ye up with an old fren a mine. `
 slce _
 .z `Can I ask who? It's strange knowing there's a doppleganger of me out there.`
 src
