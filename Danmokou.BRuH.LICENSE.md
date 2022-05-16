@@ -10,7 +10,7 @@ See this repository here: https://github.com/Bagoum/danmokou-bruh
 
 
 
-All source code in this submodule is distributed under the GNU GPL v3. 
+All source code in the BRuH submodule is distributed under the GNU GPL v3. 
 Source code is present in the folders Scripts and Dialogue/Scripts.
 
 
