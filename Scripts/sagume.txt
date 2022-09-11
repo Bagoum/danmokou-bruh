@@ -10,11 +10,9 @@ phase 0
 		shift-phase-to 4
 	
 !{ power1()
-sync powerup1 <> powerup2
-	x-powerup-1 x-powerdown-1
+sync powerup1 <> poweraura boss1
 	lerp 0 1 t purple (rgb 1 1 1)
 	purple
-	1.5 2 0 0.5
 !}
 
 !!{ me sagume

@@ -10,8 +10,9 @@ See this repository here: https://github.com/Bagoum/danmokou-bruh
 
 
 
-All source code in the BRuH submodule is distributed under the GNU GPL v3. 
-Source code is present in the folders Scripts and Dialogue/Scripts.
+All source code in the BRuH submodule is distributed under the GNU GPL v3, provided at the end of this file. Source code is present in the folder Scripts and Dialogue/Scripts.
+
+If you are making use of this project, please reproduce this license file or link to it ([Github link](https://github.com/Bagoum/danmokou-bruh/blob/master/Danmokou.BRuH.LICENSE.md)).
 
 
 
@@ -37,9 +38,7 @@ They are not committed to the repository for licensing reasons. Sources are as f
 - Sagume: 紅月カイ on Pixiv https://www.pixiv.net/en/artworks/53826948 and https://www.pixiv.net/en/artworks/57678951
 - Tokiko: 会帆 on Pixiv https://www.pixiv.net/en/artworks/66028146 and https://www.pixiv.net/en/artworks/64018930
 
-## Code Licenses
-
-### This project: GNU GPL v3
+## GNU GPL v3 License
 
 ```
 This program is free software: you can redistribute it and/or modify
