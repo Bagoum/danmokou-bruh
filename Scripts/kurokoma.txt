@@ -83,7 +83,6 @@ phase 36 #{
 !!{ rpt 11
 		async fireball-black/ <> gcr2 (lerpt 0 4 5s 4s) _ aphi $rpt {
 			preloop rootloc =v2 loc
-			expose v2 rootloc
 			sfx x-fire-burst-1
 		} gsr2c $rpt {
 		} s tpnrot lerpt 100 101.3
